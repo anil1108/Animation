@@ -1,0 +1,23 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: brown;
+}
+.container{
+    width: fit-content;
+    margin: 15% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(154, 154, 157);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px 2px;
+    padding: 10px ;
+}
+
+.container img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    mix-blend-mode: darken;
+}
